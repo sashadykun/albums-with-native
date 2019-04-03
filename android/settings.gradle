@@ -1,0 +1,3 @@
+rootProject.name = 'albums_with_native'
+
+include ':app'
