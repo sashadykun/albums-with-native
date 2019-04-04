@@ -1,22 +1,9 @@
-//index.ios.js - place code in here for IOS!!!
+/**
+ * @format
+ */
 
-// import a library to help create a cmponent
+import {AppRegistry} from 'react-native';
+import App from './App';
+import {name as appName} from './app.json';
 
-import React from 'react';
-import { Text, AppRegistry } from 'react-native';
-
-
-
-// crecte a component
-const App = () => {
-    return (
-        <Text>Some text</Text>
-    );
-};
-
-
-
-
-// render it to the device
-
-AppRegistry.registerComponent('albums_with_native', () => App);
+AppRegistry.registerComponent(appName, () => App);
