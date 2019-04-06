@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "acorn": "^6.1.1",
+    "axios": "^0.18.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "react": "16.8.3",
     "react-native": "0.59.3"
